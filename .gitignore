@@ -1,0 +1,18 @@
+# build/test artifacts
+HLS_output/
+panda-temp/
+*.vhd
+*.v
+!examples/**/*.v
+*.log
+*.mem
+*.o
+*.d
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.AppImage
+squashfs-root/
+results.txt

@@ -1,0 +1,7 @@
+# Force LF for scripts (CRLF breaks bash in WSL/Linux)
+*.sh  text eol=lf
+*.py  text eol=lf
+*.c   text eol=lf
+*.md  text eol=lf
+# Binary
+*.png binary
